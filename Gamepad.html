@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+
+        h2 {
+            text-align: left;
+        }
+
+        .portfolio-description p {
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 500px;
+            object-fit: contain;
+            object-position: center;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Proje Detayları</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+    <header id="header" class="header dark-background d-flex flex-column">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+
+        <div class="profile-img">
+            <img src="assets/img/my-profile-img.jpeg" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <h1 class="sitename">Umutcan ATEŞ</h1>
+        </a>
+
+        <div class="social-links text-center">
+            <a href="https://www.instagram.com/atesuumut/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/umut-can-ate%C5%9F-8a719218a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSQlFAt7QRqOWsZpxbG49xQ%3D%3D" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/atesumuut" class="github" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="mailto:atesumuut@gmail.com" class="mail" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html" class="active"><i class="bi bi-house navicon"></i>Anasayfa</a></li>
+                <li><a href="index.html#about"><i class="bi bi-person navicon"></i> Hakkımda</a></li>
+                <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Özgeçmiş</a></li>
+                <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Çalışmalar</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Proje Detayları</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li class="current">Çalışmalar</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/gamepad.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Gamepad/joystick_shield.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Gamepad/leonardo.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Gamepad/kap.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                  <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300" style="text-align: justify; padding: 10px 15px;">
+                      <h2>Proje: Arduino Tabanlı USB Gamepad</h2>
+                      <p>
+                          Bu proje, <strong>Arduino Leonardo</strong>, <strong>Joystick Shield</strong> ve özel olarak tasarlanan <strong>3D baskı konsol gövdesi</strong> kullanılarak geliştirilmiş bir USB gamepad sistemidir. Arduino Leonardo’nun yerleşik USB desteği sayesinde bilgisayara bağlandığında <strong>klavye ve fare girişlerini simüle edebilmektedir</strong>. Böylece joystick hareketleri ve buton girişleri, kullanıcı tanımlı kısayollarla doğrudan bilgisayar etkileşimlerine dönüştürülmektedir.
+                      </p>
+                      <p>
+                          Proje <strong>C programlama dili</strong> ile yazılmış olup, mikrodenetleyici üzerinde düşük seviyeli donanım kontrolü sağlanmıştır. Kullanıcı, joystick ile yön tuşlarını kontrol ederken; butonlar ile fare tıklamaları, klavye tuşları veya özel makrolar gerçekleştirebilir.
+                      </p>
+                      <p>
+                          Bu sistemin en dikkat çekici özelliklerinden biri, <strong>engelli bireyler</strong> için alternatif bir giriş yöntemi sunmasıdır. Özellikle standart klavye veya fare kullanmakta zorlanan bireyler için joystick ve butonlarla kontrol sağlamak çok daha kolay hale gelir. Kullanıcıya özel olarak programlanabilir tuş kombinasyonları sayesinde erişilebilirlik artırılmıştır.
+                      </p>
+                      <p>
+                          Proje aşağıdaki alanlarda kullanılabilir:
+                          <ul>
+                              <li>1.Oyun kontrolü</li>
+                              <li>2.Engelli bireyler için bilgisayar erişimi</li>
+                              <li>3.Makro ve otomasyon sistemleri</li>
+                          </ul>
+                      </p>
+                      <p>
+                          Konsolun fiziksel kasası <strong>3D yazıcı</strong> ile tasarlanmış ve ergonomik yapısıyla uzun süreli kullanıma uygundur. Bu sayede hem yazılım hem de donanım yönüyle güçlü ve bütüncül bir proje ortaya konmuştur.
+                      </p>
+                      <p>
+                          Projeye ait kaynak kodlara ve detaylara GitHub profilimden ulaşabilirsiniz:<br>
+                          <a href="https://github.com/atesumuut" target="_blank">github.com/atesumuut</a>
+                      </p>
+                  </div>
+              </div>
+         
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
